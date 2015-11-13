@@ -24,3 +24,7 @@ $ ->
 	$(document).on 'click', '.nav-button', (e) ->
 		$(this).toggleClass 'show'
 		$('.bubble-nav').toggleClass 'show'
+
+	$(document).on 'click', '.ingredient', (e) ->
+		(e).preventDefault()
+		$(this).toggleClass 'active'

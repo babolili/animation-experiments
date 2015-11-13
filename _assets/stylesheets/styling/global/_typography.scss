@@ -10,7 +10,7 @@ html {
     font-size: 13px;
   }
 }
-@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic|Pacifico|Raleway:600,700,400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
 
 $thin: 100;
 $light: 300;
@@ -24,7 +24,7 @@ $best-sans-fonts: 'helvetica neue', 'helvetica', 'Arial', sans-serif;
 $best-serif-fonts: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
 
 //INCLUDE FONTS HERE
-$sans: 'Raleway', $best-sans-fonts;
+$sans: 'Lato', $best-sans-fonts;
 $script: 'Pacifico', cursive;
 $serif: 'Noto Serif', $best-serif-fonts;
 
@@ -63,8 +63,13 @@ h4,h5 {
 }
 
 h1 {
-  @include font($sans,rem(60px),$bold,$black);
+  @include font($sans,rem(30px),$bold,$black);
   line-height: 0.85;
+  text-transform: uppercase;
+  border-top: 1px solid $black;
+  border-bottom: 1px solid $black;
+  padding-top: $padding-s;
+  padding-bottom: $padding-s;
 }
 
 h2 {

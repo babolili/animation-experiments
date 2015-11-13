@@ -7,6 +7,7 @@
 @import "styling/global/functions";
 @import "styling/global/variables";
 @import "styling/global/icon-variables";
+@import "styling/global/easing-variables";
 @import "styling/global/hard-reset";
 @import "styling/global/mixins";
 @import "styling/global/positioning-extenders";
@@ -20,5 +21,7 @@
 @import "styling/objects/forms/selects";
 @import "styling/objects/buttons";
 @import "styling/objects/lightbox.scss";
+
+@import "styling/pages/home";
 
 @import "display"
